@@ -1,7 +1,7 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Sarah's Portfolio",
   "source": "src/index.html",
   "homepage": "http://Tu-Code.github.io/sarah-s-portfolio",
   "scripts": {
