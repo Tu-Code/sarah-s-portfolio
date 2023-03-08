@@ -31,13 +31,11 @@ const Footer = (props) => {
     devDotTo,
     email,
     gitHub,
-    instagram,
     linkedIn,
     medium,
     name,
     primaryColor,
     twitter,
-    youTube,
   } = props;
 
   return (
@@ -74,15 +72,6 @@ const Footer = (props) => {
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
-        {instagram && (
-          <a
-            href={`https://www.instagram.com/${instagram}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
-          </a>
-        )}
         {linkedIn && (
           <a
             href={`https://www.linkedin.com/in/${linkedIn}`}
@@ -100,15 +89,6 @@ const Footer = (props) => {
         {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
-          </a>
-        )}
-        {youTube && (
-          <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
       </div>
